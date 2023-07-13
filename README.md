@@ -2,9 +2,9 @@
 ![Test Workflow](https://github.com/firstbatchxyz/hollowdb-express/actions/workflows/test.yml/badge.svg?branch=master)
 [![Discord](https://dcbadge.vercel.app/api/server/2wuU9ym6fq?style=flat)](https://discord.gg/2wuU9ym6fq)
 
-# HollowDB Backend - ExpressJS
+# HollowDB Backend - ExpressJS Hiring
 
-HollowDB backend using ExpressJS.
+HollowDB backend using ExpressJS for DevOps Hiring Case Study
 
 ## Usage
 
@@ -21,16 +21,8 @@ Install the packages with:
 yarn
 ```
 
-Put your Arweave wallet in `secrets/wallet.json`. Then, start the server by providing the contract transaction id to connect to:
+Start the server
 
 ```bash
-yarn start <contract-txid>
-```
-
-## Test
-
-You can run the Mocha tests where a local Arweave node will be created during the test, and the tests will be run over an ephemeral backend connected to a local contract.
-
-```sh
-yarn test
+yarn start
 ```

@@ -4288,10 +4288,10 @@ hmac-drbg@^1.0.1:
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.1"
 
-hollowdb@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/hollowdb/-/hollowdb-1.2.1.tgz#46b51a5df8f196e9363dcf96428ede785267968b"
-  integrity sha512-QNp7xx7woEEqG9Z36PRWHEl688x2t4HFt9+JQTfIbaDBUp+Gy8fwhK30sTwXPLudispyGx1yvmtLuSFhACxf9Q==
+hollowdb@^1.2.4:
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/hollowdb/-/hollowdb-1.2.4.tgz#0317ef32ac9226756769665bed99fd2ca03fa441"
+  integrity sha512-v5OW1RDJY42c4E2qB/A0I6z7kJgZ2lK33icZjm/Ewa+QfYmG16pv4x9SDwJvIFM7j33uVnWo9EHv2jcU1hPn+A==
   dependencies:
     warp-contracts "^1.4.2"
     warp-contracts-plugin-deploy "^1.0.7"
@@ -4302,7 +4302,7 @@ hollowdb@^1.2.1:
     poseidon-lite "^0.1.0"
     snarkjs "^0.6.1"
     warp-contracts-lmdb "^1.1.10"
-    warp-contracts-redis "^0.2.0"
+    warp-contracts-redis "^0.3.4"
 
 hoopy@^0.1.4:
   version "0.1.4"
@@ -7288,10 +7288,10 @@ warp-contracts-plugin-snarkjs@^0.1.6:
   dependencies:
     snarkjs "^0.6.10"
 
-warp-contracts-redis@^0.2.0:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/warp-contracts-redis/-/warp-contracts-redis-0.2.1.tgz#380126c8d2faa57068a88d7600ad3c48953b64ae"
-  integrity sha512-9oZakfyvUtAb3GevkZOrcvs5/C5MMlkeQ1Dp5kn3hA70Nw4dUwTfIAXwrqQcyRYRbWXlLaOoYUSuh/9wt7aaIQ==
+warp-contracts-redis@^0.3.4:
+  version "0.3.4"
+  resolved "https://registry.yarnpkg.com/warp-contracts-redis/-/warp-contracts-redis-0.3.4.tgz#1e9e5a4294d7dc7c71e6c10558462d4e5a885c4a"
+  integrity sha512-f2OtV72rzd8flxjX3jztAvNxwWl1IzUqQ417nILF5Wl98NfmeW69hPabmZbv7ETc79q2GISgfd+naewvg/JVig==
   dependencies:
     ioredis "^5.3.2"
     safe-stable-stringify "^2.4.3"

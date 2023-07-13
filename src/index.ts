@@ -70,9 +70,11 @@ if (require.main === module) {
   if (process.argv.length !== 3) {
     throw new Error('Please provide contractTxId as an argument.');
   }
+
+  //TODO: remove this logic and do it in the config
   const contractTxId = process.argv[2];
 
-  // read wallet
+  //TODO: remove this logic and do it in the config
   const wallet = JSON.parse(
     readFileSync('./src/secrets/wallet.json').toString()
   ) as JWKInterface;
